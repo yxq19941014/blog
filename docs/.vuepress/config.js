@@ -2,9 +2,10 @@
  * @Description: blog配置文件
  * @Author: Mr.yang
  * @Date: 2020-06-13 17:30:06
- * @LastEditTime: 2020-06-15 12:53:46
+ * @LastEditTime: 2020-06-15 17:37:29
  */ 
 module.exports = {
+    base:"/blog",
     title: '前端小菜鸟的博客',
     description: '专注于技术的积累',
     configureWebpack: {

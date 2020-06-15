@@ -4,65 +4,9 @@
 export const siteData = {
   "title": "前端小菜鸟的博客",
   "description": "专注于技术的积累",
-  "base": "/",
+  "base": "/blog",
   "headTags": [],
   "pages": [
-    {
-      "frontmatter": {},
-      "regularPath": "/src/",
-      "relativePath": "src/README.md",
-      "key": "v-7741ab58",
-      "path": "/src/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/react/",
-      "relativePath": "src/react/README.md",
-      "key": "v-7aa2d761",
-      "path": "/src/react/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/nginx/",
-      "relativePath": "src/nginx/README.md",
-      "key": "v-c1a0952a",
-      "path": "/src/nginx/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/ES6/",
-      "relativePath": "src/ES6/README.md",
-      "key": "v-47c46acf",
-      "path": "/src/ES6/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/vue/",
-      "relativePath": "src/vue/README.md",
-      "key": "v-3a7ae553",
-      "path": "/src/vue/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/vue/index/",
-      "relativePath": "src/vue/index/README.md",
-      "key": "v-4528873a",
-      "path": "/src/vue/index/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/webPack/",
-      "relativePath": "src/webPack/README.md",
-      "key": "v-6a784676",
-      "path": "/src/webPack/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/vue/vue1/",
-      "relativePath": "src/vue/vue1/README.md",
-      "key": "v-1a150cee",
-      "path": "/src/vue/vue1/"
-    },
     {
       "title": "Home",
       "frontmatter": {
@@ -78,6 +22,62 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-3b198391",
       "path": "/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/ES6/",
+      "relativePath": "src/ES6/README.md",
+      "key": "v-47c46acf",
+      "path": "/src/ES6/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/",
+      "relativePath": "src/README.md",
+      "key": "v-7741ab58",
+      "path": "/src/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/nginx/",
+      "relativePath": "src/nginx/README.md",
+      "key": "v-c1a0952a",
+      "path": "/src/nginx/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/webPack/",
+      "relativePath": "src/webPack/README.md",
+      "key": "v-6a784676",
+      "path": "/src/webPack/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/react/",
+      "relativePath": "src/react/README.md",
+      "key": "v-7aa2d761",
+      "path": "/src/react/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/vue/",
+      "relativePath": "src/vue/README.md",
+      "key": "v-3a7ae553",
+      "path": "/src/vue/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/vue/vue1/",
+      "relativePath": "src/vue/vue1/README.md",
+      "key": "v-1a150cee",
+      "path": "/src/vue/vue1/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/vue/index/",
+      "relativePath": "src/vue/index/README.md",
+      "key": "v-4528873a",
+      "path": "/src/vue/index/"
     }
   ],
   "themeConfig": {
