@@ -1,0 +1,17 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "<!--\r  * @Description: \r  * @Author: Mr.yang\r  * @Date: 2020-06-13 17:05:52\r  * @LastEditTime: 2020-06-13 17:08:25\r --> \r '# 你好呀'",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "vuepress": "^1.2.0"
+  }
+}
