@@ -4,7 +4,7 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from undefined
+import GlobalLayout from "C:\\Users\\Administrator\\Desktop\\blog\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
@@ -33,6 +33,30 @@ export const routes = [
     redirect: "/src/ES6/"
   },
   {
+    name: "v-3a7ae553",
+    path: "/src/vue/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3a7ae553").then(next)
+    },
+  },
+  {
+    path: "/src/vue/index.html",
+    redirect: "/src/vue/"
+  },
+  {
+    name: "v-1a150cee",
+    path: "/src/vue/vue1/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-1a150cee").then(next)
+    },
+  },
+  {
+    path: "/src/vue/vue1/index.html",
+    redirect: "/src/vue/vue1/"
+  },
+  {
     name: "v-7741ab58",
     path: "/src/",
     component: GlobalLayout,
@@ -45,16 +69,16 @@ export const routes = [
     redirect: "/src/"
   },
   {
-    name: "v-c1a0952a",
-    path: "/src/nginx/",
+    name: "v-4528873a",
+    path: "/src/vue/index/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-c1a0952a").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-4528873a").then(next)
     },
   },
   {
-    path: "/src/nginx/index.html",
-    redirect: "/src/nginx/"
+    path: "/src/vue/index/index.html",
+    redirect: "/src/vue/index/"
   },
   {
     name: "v-6a784676",
@@ -81,40 +105,16 @@ export const routes = [
     redirect: "/src/react/"
   },
   {
-    name: "v-3a7ae553",
-    path: "/src/vue/",
+    name: "v-c1a0952a",
+    path: "/src/nginx/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3a7ae553").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-c1a0952a").then(next)
     },
   },
   {
-    path: "/src/vue/index.html",
-    redirect: "/src/vue/"
-  },
-  {
-    name: "v-1a150cee",
-    path: "/src/vue/vue1/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-1a150cee").then(next)
-    },
-  },
-  {
-    path: "/src/vue/vue1/index.html",
-    redirect: "/src/vue/vue1/"
-  },
-  {
-    name: "v-4528873a",
-    path: "/src/vue/index/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4528873a").then(next)
-    },
-  },
-  {
-    path: "/src/vue/index/index.html",
-    redirect: "/src/vue/index/"
+    path: "/src/nginx/index.html",
+    redirect: "/src/nginx/"
   },
   {
     path: '*',

@@ -11,7 +11,7 @@ export const siteData = {
       "title": "Home",
       "frontmatter": {
         "home": true,
-        "heroImage": "/timg.jpg",
+        "heroImage": "/blogtimg.jpg",
         "heroText": "专注于前端技术的积累",
         "tagline": "记录每一天的进步，一分耕耘，一分收获",
         "actionText": "start →",
@@ -32,6 +32,20 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/src/vue/",
+      "relativePath": "src/vue/README.md",
+      "key": "v-3a7ae553",
+      "path": "/src/vue/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/vue/vue1/",
+      "relativePath": "src/vue/vue1/README.md",
+      "key": "v-1a150cee",
+      "path": "/src/vue/vue1/"
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/src/",
       "relativePath": "src/README.md",
       "key": "v-7741ab58",
@@ -39,10 +53,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/src/nginx/",
-      "relativePath": "src/nginx/README.md",
-      "key": "v-c1a0952a",
-      "path": "/src/nginx/"
+      "regularPath": "/src/vue/index/",
+      "relativePath": "src/vue/index/README.md",
+      "key": "v-4528873a",
+      "path": "/src/vue/index/"
     },
     {
       "frontmatter": {},
@@ -60,24 +74,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/src/vue/",
-      "relativePath": "src/vue/README.md",
-      "key": "v-3a7ae553",
-      "path": "/src/vue/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/vue/vue1/",
-      "relativePath": "src/vue/vue1/README.md",
-      "key": "v-1a150cee",
-      "path": "/src/vue/vue1/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/vue/index/",
-      "relativePath": "src/vue/index/README.md",
-      "key": "v-4528873a",
-      "path": "/src/vue/index/"
+      "regularPath": "/src/nginx/",
+      "relativePath": "src/nginx/README.md",
+      "key": "v-c1a0952a",
+      "path": "/src/nginx/"
     }
   ],
   "themeConfig": {

@@ -1,6 +1,6 @@
 ---
 home: true
-heroImage: /timg.jpg
+heroImage: /blogtimg.jpg
 heroText: 专注于前端技术的积累
 tagline: 记录每一天的进步，一分耕耘，一分收获
 actionText: start →
