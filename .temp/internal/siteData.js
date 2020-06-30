@@ -4,9 +4,16 @@
 export const siteData = {
   "title": "前端小菜鸟的博客",
   "description": "专注于技术的积累",
-  "base": "/blog",
+  "base": "/blog/",
   "headTags": [],
   "pages": [
+    {
+      "frontmatter": {},
+      "regularPath": "/src/ES6/",
+      "relativePath": "src/ES6/README.md",
+      "key": "v-47c46acf",
+      "path": "/src/ES6/"
+    },
     {
       "title": "Home",
       "frontmatter": {
@@ -14,7 +21,6 @@ export const siteData = {
         "heroImage": "/blogtimg.jpg",
         "heroText": "专注于前端技术的积累",
         "tagline": "记录每一天的进步，一分耕耘，一分收获",
-        "actionText": "start →",
         "actionLink": "/zh/guide/",
         "features": null
       },
@@ -25,45 +31,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/src/ES6/",
-      "relativePath": "src/ES6/README.md",
-      "key": "v-47c46acf",
-      "path": "/src/ES6/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/vue/",
-      "relativePath": "src/vue/README.md",
-      "key": "v-3a7ae553",
-      "path": "/src/vue/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/vue/vue1/",
-      "relativePath": "src/vue/vue1/README.md",
-      "key": "v-1a150cee",
-      "path": "/src/vue/vue1/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/",
-      "relativePath": "src/README.md",
-      "key": "v-7741ab58",
-      "path": "/src/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/vue/index/",
-      "relativePath": "src/vue/index/README.md",
-      "key": "v-4528873a",
-      "path": "/src/vue/index/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/webPack/",
-      "relativePath": "src/webPack/README.md",
-      "key": "v-6a784676",
-      "path": "/src/webPack/"
+      "regularPath": "/src/nginx/",
+      "relativePath": "src/nginx/README.md",
+      "key": "v-c1a0952a",
+      "path": "/src/nginx/"
     },
     {
       "frontmatter": {},
@@ -74,10 +45,57 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/src/nginx/",
-      "relativePath": "src/nginx/README.md",
-      "key": "v-c1a0952a",
-      "path": "/src/nginx/"
+      "regularPath": "/src/vue/index/",
+      "relativePath": "src/vue/index/README.md",
+      "key": "v-4528873a",
+      "path": "/src/vue/index/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/",
+      "relativePath": "src/README.md",
+      "key": "v-7741ab58",
+      "path": "/src/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/vue/",
+      "relativePath": "src/vue/README.md",
+      "key": "v-3a7ae553",
+      "path": "/src/vue/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "安装node以及npm",
+          "slug": "安装node以及npm"
+        },
+        {
+          "level": 2,
+          "title": "安装vscode",
+          "slug": "安装vscode"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/user/",
+      "relativePath": "src/user/README.md",
+      "key": "v-48f28321",
+      "path": "/src/user/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/webPack/",
+      "relativePath": "src/webPack/README.md",
+      "key": "v-6a784676",
+      "path": "/src/webPack/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/vue/vue1/",
+      "relativePath": "src/vue/vue1/README.md",
+      "key": "v-1a150cee",
+      "path": "/src/vue/vue1/"
     }
   ],
   "themeConfig": {
@@ -105,13 +123,17 @@ export const siteData = {
       {
         "text": "nginx",
         "link": "/src/nginx/"
+      },
+      {
+        "text": "关于我",
+        "link": "/src/user/"
       }
     ],
     "sidebar": {
       "/src/vue/": [
         [
           "",
-          "vue目录"
+          "基本配置"
         ],
         [
           "/src/vue/vue1/",

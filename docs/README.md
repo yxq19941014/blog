@@ -3,7 +3,7 @@ home: true
 heroImage: /blogtimg.jpg
 heroText: 专注于前端技术的积累
 tagline: 记录每一天的进步，一分耕耘，一分收获
-actionText: start →
+# actionText: start →
 actionLink: /zh/guide/
 features:
 # - title: vue
@@ -14,6 +14,7 @@ features:
 #   details: VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。
 # footer: MIT Licensed | Copyright © 2018-present Evan You
 ---
+
 
 
 
