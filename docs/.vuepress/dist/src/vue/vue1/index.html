@@ -7,7 +7,7 @@
     <meta name="generator" content="VuePress 1.5.1">
     
     <meta name="description" content="专注于技术的积累">
-    <link rel="preload" href="/blog/assets/css/0.styles.f9b52b88.css" as="style"><link rel="preload" href="/blog/assets/js/app.a6ffb9e3.js" as="script"><link rel="preload" href="/blog/assets/js/2.25b3f6bd.js" as="script"><link rel="preload" href="/blog/assets/js/13.1982487b.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.59fe044b.js"><link rel="prefetch" href="/blog/assets/js/11.061fab04.js"><link rel="prefetch" href="/blog/assets/js/12.58c8337f.js"><link rel="prefetch" href="/blog/assets/js/14.ffd15073.js"><link rel="prefetch" href="/blog/assets/js/3.979292ab.js"><link rel="prefetch" href="/blog/assets/js/4.baf4feed.js"><link rel="prefetch" href="/blog/assets/js/5.80ee200b.js"><link rel="prefetch" href="/blog/assets/js/6.a1b8659a.js"><link rel="prefetch" href="/blog/assets/js/7.d415d3a4.js"><link rel="prefetch" href="/blog/assets/js/8.67d4e77d.js"><link rel="prefetch" href="/blog/assets/js/9.518b02b4.js">
+    <link rel="preload" href="/blog/assets/css/0.styles.f9b52b88.css" as="style"><link rel="preload" href="/blog/assets/js/app.a8416396.js" as="script"><link rel="preload" href="/blog/assets/js/2.d8e86585.js" as="script"><link rel="preload" href="/blog/assets/js/13.5134eb7e.js" as="script"><link rel="prefetch" href="/blog/assets/js/10.96e62d39.js"><link rel="prefetch" href="/blog/assets/js/11.ebb740e6.js"><link rel="prefetch" href="/blog/assets/js/12.f89ebf64.js"><link rel="prefetch" href="/blog/assets/js/14.4e332733.js"><link rel="prefetch" href="/blog/assets/js/3.5ae9deaa.js"><link rel="prefetch" href="/blog/assets/js/4.1f2ac9de.js"><link rel="prefetch" href="/blog/assets/js/5.838ad84b.js"><link rel="prefetch" href="/blog/assets/js/6.fd6e1652.js"><link rel="prefetch" href="/blog/assets/js/7.1aa39a0c.js"><link rel="prefetch" href="/blog/assets/js/8.411c996f.js"><link rel="prefetch" href="/blog/assets/js/9.9594b3a8.js">
     <link rel="stylesheet" href="/blog/assets/css/0.styles.f9b52b88.css">
   </head>
   <body>
@@ -39,15 +39,42 @@
   nginx
 </a></div><div class="nav-item"><a href="/blog/src/user/" class="nav-link">
   关于我
-</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/blog/src/vue/" aria-current="page" class="sidebar-link">vue目录</a></li><li><a href="/blog/src/vue/vue1/" aria-current="page" class="active sidebar-link">vue环境塔建</a></li><li><a href="/blog/src/vue/index/" class="sidebar-link">vue基本指令</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><p>#vue环境搭建</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+</a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/blog/src/vue/" aria-current="page" class="sidebar-link">基本配置</a></li><li><a href="/blog/src/vue/vue1/" aria-current="page" class="active sidebar-link">基本使用</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/blog/src/vue/vue1/#按照惯例首先输出一个hello-world" class="sidebar-link">按照惯例首先输出一个hello world</a></li></ul></li><li><a href="/blog/src/vue/index/" class="sidebar-link">vue基本指令</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h2 id="按照惯例首先输出一个hello-world"><a href="#按照惯例首先输出一个hello-world" class="header-anchor">#</a> 按照惯例首先输出一个hello world</h2> <ul><li><ol><li>完整代码</li></ol> <div class="language-html extra-class"><pre class="language-html"><code><span class="token doctype">&lt;!DOCTYPE html&gt;</span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>html</span> <span class="token attr-name">lang</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>en<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">charset</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>UTF-8<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>meta</span> <span class="token attr-name">name</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>viewport<span class="token punctuation">&quot;</span></span> <span class="token attr-name">content</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>width=device-width, initial-scale=1.0<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>title</span><span class="token punctuation">&gt;</span></span>vueDemo<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>title</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">src</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>https://cdn.jsdelivr.net/npm/vue/dist/vue.js<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span><span class="token script"></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>script</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>head</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token comment">&lt;!-- 
+1.创建一个DOM，给这个DOM添加id属性
+2.在script标签中new一个Vue实例
+3.el实意为element，对应的是DOM的id属性的值，data为一个对象，为Vue绑定值的对象，里面的属性对应的DOM中的值
+4.{{message}}为vue中的特殊语法，实意为绑定参数，要与data中的属性对应 --&gt;</span>
+
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span>  <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">'</span>app<span class="token punctuation">'</span></span><span class="token punctuation">&gt;</span></span>
+  {{message}}  
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>body</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>script</span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>text/javascript<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>
+const app= new Vue({
+el:'#app',
+data:{
+message:'hello Vue',
+},
+})
+
+</code></pre></div></li></ul></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
       ←
       <a href="/blog/src/vue/" class="prev router-link-active">
-        vue目录
+        基本配置
       </a></span> <span class="next"><a href="/blog/src/vue/index/">
         vue基本指令
       </a>
       →
     </span></p></div> </main></div><div class="global-ui"></div></div>
-    <script src="/blog/assets/js/app.a6ffb9e3.js" defer></script><script src="/blog/assets/js/2.25b3f6bd.js" defer></script><script src="/blog/assets/js/13.1982487b.js" defer></script>
+    <script src="/blog/assets/js/app.a8416396.js" defer></script><script src="/blog/assets/js/2.d8e86585.js" defer></script><script src="/blog/assets/js/13.5134eb7e.js" defer></script>
   </body>
 </html>

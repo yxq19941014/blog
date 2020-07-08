@@ -2,7 +2,7 @@
  * @Description: blog配置文件
  * @Author: Mr.yang
  * @Date: 2020-06-13 17:30:06
- * @LastEditTime: 2020-06-29 17:19:47
+ * @LastEditTime: 2020-07-08 14:31:26
  */ 
 module.exports = {
     base:"/blog/",
@@ -28,8 +28,10 @@ module.exports = {
             sidebar:{
                 "/src/vue/":[
                     ["", "基本配置"],
-                    ["/src/vue/vue1/", "vue环境塔建"],
+                    ["/src/vue/vue1/", "基本使用"],
                     ["/src/vue/index/", "vue基本指令"],
+                    ["/src/vue/props/", "vue常用属性"],
+                    ["/src/vue/liftCycle/", "vue生命周期"],
                     // ["stream", "node核心模块-stream"]
                   ],
             }

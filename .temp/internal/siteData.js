@@ -8,13 +8,6 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
-      "frontmatter": {},
-      "regularPath": "/src/ES6/",
-      "relativePath": "src/ES6/README.md",
-      "key": "v-47c46acf",
-      "path": "/src/ES6/"
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -38,17 +31,10 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/src/react/",
-      "relativePath": "src/react/README.md",
-      "key": "v-7aa2d761",
-      "path": "/src/react/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/vue/index/",
-      "relativePath": "src/vue/index/README.md",
-      "key": "v-4528873a",
-      "path": "/src/vue/index/"
+      "regularPath": "/src/ES6/",
+      "relativePath": "src/ES6/README.md",
+      "key": "v-47c46acf",
+      "path": "/src/ES6/"
     },
     {
       "frontmatter": {},
@@ -56,6 +42,13 @@ export const siteData = {
       "relativePath": "src/README.md",
       "key": "v-7741ab58",
       "path": "/src/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/user/",
+      "relativePath": "src/user/README.md",
+      "key": "v-48f28321",
+      "path": "/src/user/"
     },
     {
       "frontmatter": {},
@@ -68,20 +61,61 @@ export const siteData = {
           "level": 2,
           "title": "安装node以及npm",
           "slug": "安装node以及npm"
-        },
-        {
-          "level": 2,
-          "title": "安装vscode",
-          "slug": "安装vscode"
         }
       ]
     },
     {
       "frontmatter": {},
-      "regularPath": "/src/user/",
-      "relativePath": "src/user/README.md",
-      "key": "v-48f28321",
-      "path": "/src/user/"
+      "regularPath": "/src/vue/index/",
+      "relativePath": "src/vue/index/README.md",
+      "key": "v-4528873a",
+      "path": "/src/vue/index/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "v-bind指令",
+          "slug": "v-bind指令"
+        },
+        {
+          "level": 2,
+          "title": "v-if指令",
+          "slug": "v-if指令"
+        },
+        {
+          "level": 2,
+          "title": "v-for指令",
+          "slug": "v-for指令"
+        },
+        {
+          "level": 2,
+          "title": "v-on指令",
+          "slug": "v-on指令"
+        },
+        {
+          "level": 2,
+          "title": "v-model指令",
+          "slug": "v-model指令"
+        },
+        {
+          "level": 2,
+          "title": "v-show指令",
+          "slug": "v-show指令"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/vue/liftCycle/",
+      "relativePath": "src/vue/liftCycle/README.md",
+      "key": "v-2a517f68",
+      "path": "/src/vue/liftCycle/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "beforeCreate",
+          "slug": "beforecreate"
+        }
+      ]
     },
     {
       "frontmatter": {},
@@ -95,7 +129,45 @@ export const siteData = {
       "regularPath": "/src/vue/vue1/",
       "relativePath": "src/vue/vue1/README.md",
       "key": "v-1a150cee",
-      "path": "/src/vue/vue1/"
+      "path": "/src/vue/vue1/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "按照惯例首先输出一个hello world",
+          "slug": "按照惯例首先输出一个hello-world"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/vue/props/",
+      "relativePath": "src/vue/props/README.md",
+      "key": "v-7ceeb104",
+      "path": "/src/vue/props/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "计算属性",
+          "slug": "计算属性"
+        },
+        {
+          "level": 2,
+          "title": "侦听器属性",
+          "slug": "侦听器属性"
+        },
+        {
+          "level": 2,
+          "title": "methods属性",
+          "slug": "methods属性"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/react/",
+      "relativePath": "src/react/README.md",
+      "key": "v-7aa2d761",
+      "path": "/src/react/"
     }
   ],
   "themeConfig": {
@@ -137,11 +209,19 @@ export const siteData = {
         ],
         [
           "/src/vue/vue1/",
-          "vue环境塔建"
+          "基本使用"
         ],
         [
           "/src/vue/index/",
           "vue基本指令"
+        ],
+        [
+          "/src/vue/props/",
+          "vue常用属性"
+        ],
+        [
+          "/src/vue/liftCycle/",
+          "vue生命周期"
         ]
       ]
     }

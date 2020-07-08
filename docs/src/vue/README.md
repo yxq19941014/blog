@@ -20,10 +20,9 @@ C:\Users\rg\AppData\Roaming\npm`
 
 
 
+
  
 
 
 
-安装vscode
----------
 
