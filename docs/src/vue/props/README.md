@@ -2,7 +2,7 @@
  * @Description: vue常用属性
  * @Author: Mr.yang
  * @Date: 2020-07-08 12:58:15
- * @LastEditTime: 2020-07-08 14:28:10
+ * @LastEditTime: 2020-07-08 15:27:16
 --> 
 计算属性
 ----

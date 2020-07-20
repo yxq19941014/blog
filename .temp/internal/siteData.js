@@ -8,6 +8,20 @@ export const siteData = {
   "headTags": [],
   "pages": [
     {
+      "frontmatter": {},
+      "regularPath": "/src/ES6/",
+      "relativePath": "src/ES6/README.md",
+      "key": "v-47c46acf",
+      "path": "/src/ES6/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/",
+      "relativePath": "src/README.md",
+      "key": "v-7741ab58",
+      "path": "/src/"
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -24,31 +38,17 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/src/nginx/",
-      "relativePath": "src/nginx/README.md",
-      "key": "v-c1a0952a",
-      "path": "/src/nginx/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/ES6/",
-      "relativePath": "src/ES6/README.md",
-      "key": "v-47c46acf",
-      "path": "/src/ES6/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/",
-      "relativePath": "src/README.md",
-      "key": "v-7741ab58",
-      "path": "/src/"
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/src/user/",
       "relativePath": "src/user/README.md",
       "key": "v-48f28321",
       "path": "/src/user/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/nginx/",
+      "relativePath": "src/nginx/README.md",
+      "key": "v-c1a0952a",
+      "path": "/src/nginx/"
     },
     {
       "frontmatter": {},
@@ -105,41 +105,6 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/src/vue/liftCycle/",
-      "relativePath": "src/vue/liftCycle/README.md",
-      "key": "v-2a517f68",
-      "path": "/src/vue/liftCycle/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "beforeCreate",
-          "slug": "beforecreate"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/webPack/",
-      "relativePath": "src/webPack/README.md",
-      "key": "v-6a784676",
-      "path": "/src/webPack/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/vue/vue1/",
-      "relativePath": "src/vue/vue1/README.md",
-      "key": "v-1a150cee",
-      "path": "/src/vue/vue1/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "按照惯例首先输出一个hello world",
-          "slug": "按照惯例首先输出一个hello-world"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
       "regularPath": "/src/vue/props/",
       "relativePath": "src/vue/props/README.md",
       "key": "v-7ceeb104",
@@ -164,10 +129,80 @@ export const siteData = {
     },
     {
       "frontmatter": {},
+      "regularPath": "/src/vue/vue1/",
+      "relativePath": "src/vue/vue1/README.md",
+      "key": "v-1a150cee",
+      "path": "/src/vue/vue1/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "按照惯例首先输出一个hello world",
+          "slug": "按照惯例首先输出一个hello-world"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
       "regularPath": "/src/react/",
       "relativePath": "src/react/README.md",
       "key": "v-7aa2d761",
       "path": "/src/react/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/webPack/",
+      "relativePath": "src/webPack/README.md",
+      "key": "v-6a784676",
+      "path": "/src/webPack/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/vue/liftCycle/",
+      "relativePath": "src/vue/liftCycle/README.md",
+      "key": "v-2a517f68",
+      "path": "/src/vue/liftCycle/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "beforeCreate",
+          "slug": "beforecreate"
+        },
+        {
+          "level": 2,
+          "title": "created",
+          "slug": "created"
+        },
+        {
+          "level": 2,
+          "title": "beforeMount",
+          "slug": "beforemount"
+        },
+        {
+          "level": 2,
+          "title": "mounted",
+          "slug": "mounted"
+        },
+        {
+          "level": 2,
+          "title": "beforeUpdate",
+          "slug": "beforeupdate"
+        },
+        {
+          "level": 2,
+          "title": "updated",
+          "slug": "updated"
+        },
+        {
+          "level": 2,
+          "title": "beforeDestroy",
+          "slug": "beforedestroy"
+        },
+        {
+          "level": 2,
+          "title": "destroyed",
+          "slug": "destroyed"
+        }
+      ]
     }
   ],
   "themeConfig": {
