@@ -9,10 +9,10 @@ export const siteData = {
   "pages": [
     {
       "frontmatter": {},
-      "regularPath": "/src/ES6/",
-      "relativePath": "src/ES6/README.md",
-      "key": "v-47c46acf",
-      "path": "/src/ES6/"
+      "regularPath": "/src/react/",
+      "relativePath": "src/react/README.md",
+      "key": "v-7aa2d761",
+      "path": "/src/react/"
     },
     {
       "frontmatter": {},
@@ -20,6 +20,41 @@ export const siteData = {
       "relativePath": "src/README.md",
       "key": "v-7741ab58",
       "path": "/src/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/ES6/",
+      "relativePath": "src/ES6/README.md",
+      "key": "v-47c46acf",
+      "path": "/src/ES6/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/user/",
+      "relativePath": "src/user/README.md",
+      "key": "v-48f28321",
+      "path": "/src/user/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/vue/",
+      "relativePath": "src/vue/README.md",
+      "key": "v-3a7ae553",
+      "path": "/src/vue/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "安装node以及npm",
+          "slug": "安装node以及npm"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/nginx/",
+      "relativePath": "src/nginx/README.md",
+      "key": "v-c1a0952a",
+      "path": "/src/nginx/"
     },
     {
       "title": "Home",
@@ -38,29 +73,68 @@ export const siteData = {
     },
     {
       "frontmatter": {},
-      "regularPath": "/src/user/",
-      "relativePath": "src/user/README.md",
-      "key": "v-48f28321",
-      "path": "/src/user/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/nginx/",
-      "relativePath": "src/nginx/README.md",
-      "key": "v-c1a0952a",
-      "path": "/src/nginx/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/vue/",
-      "relativePath": "src/vue/README.md",
-      "key": "v-3a7ae553",
-      "path": "/src/vue/",
+      "regularPath": "/src/vue/vue-router/",
+      "relativePath": "src/vue/vue-router/README.md",
+      "key": "v-ab7ce3e4",
+      "path": "/src/vue/vue-router/",
       "headers": [
         {
           "level": 2,
-          "title": "安装node以及npm",
-          "slug": "安装node以及npm"
+          "title": "安装vue-router",
+          "slug": "安装vue-router"
+        },
+        {
+          "level": 2,
+          "title": "vue-router使用的第一个例子",
+          "slug": "vue-router使用的第一个例子"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/vue/globalApi/",
+      "relativePath": "src/vue/globalApi/README.md",
+      "key": "v-77dc7ab0",
+      "path": "/src/vue/globalApi/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Vue.extend( options )",
+          "slug": "vue-extend-options"
+        },
+        {
+          "level": 2,
+          "title": "Vue.component( id, [definition] )",
+          "slug": "vue-component-id-definition"
+        },
+        {
+          "level": 2,
+          "title": "mixin",
+          "slug": "mixin"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/vue/props/",
+      "relativePath": "src/vue/props/README.md",
+      "key": "v-7ceeb104",
+      "path": "/src/vue/props/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "计算属性",
+          "slug": "计算属性"
+        },
+        {
+          "level": 2,
+          "title": "侦听器属性",
+          "slug": "侦听器属性"
+        },
+        {
+          "level": 2,
+          "title": "methods属性",
+          "slug": "methods属性"
         }
       ]
     },
@@ -102,58 +176,6 @@ export const siteData = {
           "slug": "v-show指令"
         }
       ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/vue/props/",
-      "relativePath": "src/vue/props/README.md",
-      "key": "v-7ceeb104",
-      "path": "/src/vue/props/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "计算属性",
-          "slug": "计算属性"
-        },
-        {
-          "level": 2,
-          "title": "侦听器属性",
-          "slug": "侦听器属性"
-        },
-        {
-          "level": 2,
-          "title": "methods属性",
-          "slug": "methods属性"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/vue/vue1/",
-      "relativePath": "src/vue/vue1/README.md",
-      "key": "v-1a150cee",
-      "path": "/src/vue/vue1/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "按照惯例首先输出一个hello world",
-          "slug": "按照惯例首先输出一个hello-world"
-        }
-      ]
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/react/",
-      "relativePath": "src/react/README.md",
-      "key": "v-7aa2d761",
-      "path": "/src/react/"
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/src/webPack/",
-      "relativePath": "src/webPack/README.md",
-      "key": "v-6a784676",
-      "path": "/src/webPack/"
     },
     {
       "frontmatter": {},
@@ -203,6 +225,46 @@ export const siteData = {
           "slug": "destroyed"
         }
       ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/vue/vue-cli/",
+      "relativePath": "src/vue/vue-cli/README.md",
+      "key": "v-2ab1d8a8",
+      "path": "/src/vue/vue-cli/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "安装vue-cli",
+          "slug": "安装vue-cli"
+        },
+        {
+          "level": 2,
+          "title": "创建一个新的vue项目",
+          "slug": "创建一个新的vue项目"
+        }
+      ]
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/webPack/",
+      "relativePath": "src/webPack/README.md",
+      "key": "v-6a784676",
+      "path": "/src/webPack/"
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/src/vue/vue1/",
+      "relativePath": "src/vue/vue1/README.md",
+      "key": "v-1a150cee",
+      "path": "/src/vue/vue1/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "按照惯例首先输出一个hello world",
+          "slug": "按照惯例首先输出一个hello-world"
+        }
+      ]
     }
   ],
   "themeConfig": {
@@ -224,7 +286,7 @@ export const siteData = {
         "link": "/src/ES6/"
       },
       {
-        "text": "webPack",
+        "text": "webpack",
         "link": "/src/webPack/"
       },
       {
@@ -257,6 +319,18 @@ export const siteData = {
         [
           "/src/vue/liftCycle/",
           "vue生命周期"
+        ],
+        [
+          "/src/vue/globalApi/",
+          "vue的常用全局API"
+        ],
+        [
+          "/src/vue/vue-cli/",
+          "vue-cli"
+        ],
+        [
+          "/src/vue/vue-router/",
+          "vue-router"
         ]
       ]
     }

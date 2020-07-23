@@ -132,6 +132,18 @@ v-on指令
     3.methods：vue中的一个属性，所有方法都写在这里面
     4.注意：绑定的函数不能为ES6对的箭头函数，
     5.语法糖：v-on:click="onclick"可以写成@click="onclick"
+    .stop - 调用 event.stopPropagation()。
+    6. v-on修饰符
+    .prevent - 调用 event.preventDefault()。
+    .capture - 添加事件侦听器时使用 capture 模式。
+    .self - 只当事件是从侦听器绑定的元素本身触发时才触发回调。
+    .{keyCode | keyAlias} - 只当事件是从特定键触发时才触发回调。
+    .native - 监听组件根元素的原生事件。
+    .once - 只触发一次回调。
+    .left - (2.2.0) 只当点击鼠标左键时触发。
+    .right - (2.2.0) 只当点击鼠标右键时触发。
+    .middle - (2.2.0) 只当点击鼠标中键时触发。
+    .passive - (2.3.0) 以 { passive: true } 模式添加侦听器
     ps：箭头函数没有自己的this，虽然能触发事件绑定的方法，但是并不能修改data中的message中的值 
     -->
     <div id='app'>
