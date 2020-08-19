@@ -9,18 +9,6 @@ import GlobalLayout from "C:\\Users\\Administrator\\Desktop\\blog\\node_modules\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-7aa2d761",
-    path: "/src/react/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7aa2d761").then(next)
-    },
-  },
-  {
-    path: "/src/react/index.html",
-    redirect: "/src/react/"
-  },
-  {
     name: "v-7741ab58",
     path: "/src/",
     component: GlobalLayout,
@@ -31,6 +19,18 @@ export const routes = [
   {
     path: "/src/index.html",
     redirect: "/src/"
+  },
+  {
+    name: "v-7aa2d761",
+    path: "/src/react/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7aa2d761").then(next)
+    },
+  },
+  {
+    path: "/src/react/index.html",
+    redirect: "/src/react/"
   },
   {
     name: "v-47c46acf",
@@ -57,18 +57,6 @@ export const routes = [
     redirect: "/src/user/"
   },
   {
-    name: "v-3a7ae553",
-    path: "/src/vue/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-3a7ae553").then(next)
-    },
-  },
-  {
-    path: "/src/vue/index.html",
-    redirect: "/src/vue/"
-  },
-  {
     name: "v-c1a0952a",
     path: "/src/nginx/",
     component: GlobalLayout,
@@ -81,6 +69,18 @@ export const routes = [
     redirect: "/src/nginx/"
   },
   {
+    name: "v-4528873a",
+    path: "/src/vue/index/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4528873a").then(next)
+    },
+  },
+  {
+    path: "/src/vue/index/index.html",
+    redirect: "/src/vue/index/"
+  },
+  {
     name: "v-3b198391",
     path: "/",
     component: GlobalLayout,
@@ -91,6 +91,18 @@ export const routes = [
   {
     path: "/index.html",
     redirect: "/"
+  },
+  {
+    name: "v-3a7ae553",
+    path: "/src/vue/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-3a7ae553").then(next)
+    },
+  },
+  {
+    path: "/src/vue/index.html",
+    redirect: "/src/vue/"
   },
   {
     name: "v-ab7ce3e4",
@@ -117,28 +129,16 @@ export const routes = [
     redirect: "/src/vue/globalApi/"
   },
   {
-    name: "v-7ceeb104",
-    path: "/src/vue/props/",
+    name: "v-2ab1d8a8",
+    path: "/src/vue/vue-cli/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7ceeb104").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-2ab1d8a8").then(next)
     },
   },
   {
-    path: "/src/vue/props/index.html",
-    redirect: "/src/vue/props/"
-  },
-  {
-    name: "v-4528873a",
-    path: "/src/vue/index/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4528873a").then(next)
-    },
-  },
-  {
-    path: "/src/vue/index/index.html",
-    redirect: "/src/vue/index/"
+    path: "/src/vue/vue-cli/index.html",
+    redirect: "/src/vue/vue-cli/"
   },
   {
     name: "v-2a517f68",
@@ -153,18 +153,6 @@ export const routes = [
     redirect: "/src/vue/liftCycle/"
   },
   {
-    name: "v-2ab1d8a8",
-    path: "/src/vue/vue-cli/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-2ab1d8a8").then(next)
-    },
-  },
-  {
-    path: "/src/vue/vue-cli/index.html",
-    redirect: "/src/vue/vue-cli/"
-  },
-  {
     name: "v-6a784676",
     path: "/src/webPack/",
     component: GlobalLayout,
@@ -175,6 +163,18 @@ export const routes = [
   {
     path: "/src/webPack/index.html",
     redirect: "/src/webPack/"
+  },
+  {
+    name: "v-7ceeb104",
+    path: "/src/vue/props/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7ceeb104").then(next)
+    },
+  },
+  {
+    path: "/src/vue/props/index.html",
+    redirect: "/src/vue/props/"
   },
   {
     name: "v-1a150cee",
